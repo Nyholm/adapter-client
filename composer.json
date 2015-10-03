@@ -17,8 +17,7 @@
     "require": {
         "php": ">=5.4",
         "php-http/adapter-implementation": "^0.1",
-        "php-http/client": "^0.1",
-        "php-http/helper": "^0.1@dev",
+        "php-http/adapter": "^0.1",
         "php-http/message-decorator": "^0.1",
         "php-http/message-factory": "^0.1",
         "php-http/discovery": "^0.1"
@@ -31,7 +30,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Http\\Adapter\\": "src/"
+            "Http\\Adapter\\AutoDiscovery\\": "src/"
         }
     },
     "extra": {
